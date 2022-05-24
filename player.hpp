@@ -21,4 +21,9 @@ public:
     void set_login_data(login_data);
 };
 
+map<string, bool> load_emails(vector<Player>);
+map<string, bool> load_users(vector<Player>);
+void output_data(char[], vector<Player>);
+void register_form(vector<Player>&, map<string,bool>, map<string,bool>);
+
 #endif
